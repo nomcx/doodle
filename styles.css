@@ -1,13 +1,26 @@
+.ta-center {
+    text-align: center;
+}
+
+.pt-10 {
+    padding-top: 10%;
+}
+
 .content {
     max-width: 500px;
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
-#btn {
-    background-color: yellow;
+.size-30 {
+    font-size:30px
 }
 
-#btn.toggled {
-    background-color: powderblue;
+
+.bg-gold {
+    background-color: gold;
+}
+
+.bg-aquamarine{
+    background-color: aquamarine;
 }
