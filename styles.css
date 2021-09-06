@@ -28,7 +28,7 @@ h2 {
 
 body {
     height: 100%;
-    background: linear-gradient(90deg, gold 67%, aquamarine 33%);
+    background: linear-gradient(90deg, rgb(179, 77, 247) 67%, aquamarine 33%);
     /* background: linear-gradient(90deg, #FFC0CB 50%, #00FFFF 50%); */
 
 }
