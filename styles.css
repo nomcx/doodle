@@ -21,3 +21,7 @@
 .bg-aquamarine{
     background-color: aquamarine;
 }
+
+h2:hover {
+    color:ivory
+}
