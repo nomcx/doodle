@@ -10,27 +10,46 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
-.size-30 {
-    font-size:30px
-}
-
 .title {
-    color: ivory;
+    color: aquamarine;
 }
 
 .title:hover {
-    color:aquamarine
-}
-
-h2 {
-    color: ivory;
+    color:ivory
 }
 
 body {
     height: 100%;
-    background: linear-gradient(90deg, rgb(179, 77, 247) 67%, aquamarine 33%);
+    background: linear-gradient(90deg, #f4c79f 72%, aquamarine 28%);
     /* background: linear-gradient(90deg, #FFC0CB 50%, #00FFFF 50%); */
 
+}
+
+.input {
+    -moz-border-radius:10px;  /* for Firefox */
+    -webkit-border-radius:10px; /* for Webkit-Browsers */
+    border-radius:10px; /* regular */
+    opacity:0.5; /* Transparent Background 50% */
+    width: 33%;
+    height: 40px;
+    border: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.click-me {
+    display: block;
+    border: 0px;
+    opacity:0.5; 
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.click-me:hover {
+    background-color: aquamarine;
 }
 
 .footer {
@@ -40,4 +59,4 @@ body {
     width: 100%;
     text-align: right;
     color: ivory;
-  }
+}

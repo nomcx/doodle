@@ -1,9 +1,7 @@
-function changeClass() {
-    document.body.classList.contains('bg-aquamarine')
-        ? document.body.classList.remove('bg-aquamarine')
-        : document.body.classList.add('bg-aquamarine');
+function generate() {
+    document.getElementById("address").placeholder = ":)"
 }
 
 window.onload = function () {
-    document.getElementById("click-me-button").addEventListener('click', changeClass);
+    document.getElementById("click-me-button").addEventListener('click', generate);
 }
