@@ -4,14 +4,17 @@ function generate() {
     var canvas = document.getElementById('drawing');
     if (canvas.getContext) {
         var ctx = canvas.getContext('2d');
-        ctx.canvas.width = 150;
-        ctx.canvas.height = 150;
+        ctx.canvas.width = 200;
+        ctx.canvas.height = 200;
 
         ctx.fillStyle = 'aquamarine';
-        ctx.fillRect(10, 10, 50, 50);
+        ctx.fillRect(20, 10, 75, 75);
 
-        ctx.fillStyle = 'rgba(0, 0, 200, 0.5)';
-        ctx.fillRect(30, 30, 50, 50);
+        ctx.fillStyle = 'aquamarine';
+        ctx.fillRect(115, 10, 75, 75);
+
+        ctx.fillStyle = 'aquamarine';
+        ctx.fillRect(25, 95, 160, 40);
       }
 }
 
