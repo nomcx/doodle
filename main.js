@@ -1,7 +1,9 @@
 function generate() {
     document.getElementById("address").style.display = "none";
     document.getElementById("click-me-button").style.display = "none";
+
     var canvas = document.getElementById('drawing');
+    
     if (canvas.getContext) {
         var ctx = canvas.getContext('2d');
         ctx.canvas.width = 200;
