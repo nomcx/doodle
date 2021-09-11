@@ -5,7 +5,8 @@
 
 body {
 	height: 100vh;
-	overflow-y: hidden;
+	background: linear-gradient(90deg, #f4c79f 80%, aquamarine 20%);
+	margin: 0;
 }
 
 .container {
@@ -13,8 +14,7 @@ body {
 	grid-template-columns: 2fr;
 	grid-template-rows: .5fr repeat(2, 1.5fr) .5fr;
 	grid-gap: 10px;
-	height: 100vh;
-	background: linear-gradient(90deg, #f4c79f 72%, aquamarine 28%);
+	height: 100%;
 }
 	
 .header {
