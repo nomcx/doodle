@@ -4,26 +4,57 @@
 <title>MCMXC</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
 
 <body>
     <div class="container">
-        <div class="header">
-            <a href="./index.html" style="text-decoration: none" class="title">
+        <div class="header" style="margin-top: 20px;">
+            <a href="./index.html" style="text-decoration: none" class="">
                 <h3>build_0.13</h3>
             </a>
         </div>
-        <div class="div2"></div>
-        <div class="div3 content">
-            <p class="fade-in-text">wake up, human...</p>
+        <div class="div2 content">
+            <section class="message-list">
+                <section class="message -left">
+                    <i class="nes-icon is-large star"></i>
+                    <!-- Balloon -->
+                    <div class="nes-balloon from-left is-dark">
+                        <p>wake up, human...</p>
+                    </div>
+                </section>
+                <section class="message -left">
+                    <i class="nes-icon is-large heart"></i>
+                    <!-- Balloon -->
+                    <div class="nes-balloon from-left is-dark">
+                        <p>these pixels are for you</p>
+                    </div>
+                </section>
+            </section>
+        </div>
+        <!-- <div class="div3 content">
             <form>
                 <input type="text" id="address" class="input" placeholder="0x71C7656EC7ab88b098defB751B7401B5f6d8976F">
                 <button type="button" id="click-me-button" class="click-me">click me</button>
             </form>
             <canvas id="drawing" width="0" height="0"></canvas>
+        </div> -->
+        <div class="div3">
+            <section class="showcase">
+                <section class="nes-container with-title">
+                    <h3 class="title"> eth address </h3>
+                    <input type="text" id="name_field" class="nes-input content"
+                        placeholder="0x71C7656EC7ab88b098defB751B7401B5f6d8976F">
+                    <label class="nes-btn" style="margin-top: 20px;">
+                        <span>Select your file</span>
+                        <input type="file">
+                    </label>
+                </section>
+            </section>
+            <!-- <button type="button" id="click-me-button" class="click-me">click me</button> -->
         </div>
         <div class="footer">
-            <footer>pixels for humans</footer>
         </div>
     </div>
     <script type="text/javascript" src="main.js"></script>
