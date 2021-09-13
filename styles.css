@@ -15,7 +15,7 @@ body {
 	grid-template-rows: .5fr repeat(2, 1.5fr) .5fr;
 	grid-gap: 10px;
 	height: 100%;
-	width: 1024px;
+	width: 90%;
 }
 	
 .header {
