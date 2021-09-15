@@ -4,7 +4,6 @@
 
 body {
 	height: 100vh;
-	/* background: linear-gradient(90deg, #f4c79f 80%, aquamarine 20%); */
 	margin: 0;
 }
 
@@ -15,7 +14,7 @@ body {
 	grid-template-rows: .5fr repeat(2, 1.5fr) .5fr;
 	grid-gap: 10px;
 	height: 100%;
-	width: 90%;
+	width: 80%;
 }
 	
 .header {
