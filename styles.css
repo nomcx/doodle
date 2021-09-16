@@ -22,6 +22,7 @@ body {
 .header {
 	grid-area: 1 / 1 / 2 / 2;
 	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .align-left {
@@ -42,8 +43,7 @@ body {
 .footer {
 	grid-area: 4 / 1 / 5 / 2;
 	color: rgb(0, 255, 170);
-	margin-right: 20px;
-	margin-bottom: 20px;
+	margin-left: 20px;
 	text-align: start;
 	vertical-align: baseline;
 } 
