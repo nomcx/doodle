@@ -192,7 +192,7 @@ div:empty { display: none }
 	}
   }
   
-  @for $item from 1 through 21 {
+  @for $item from 1 through 12 {
 	span:nth-of-type(#{$item}){ 
 	  animation-delay: #{(3 + ($item/10))}s; 
 	}
