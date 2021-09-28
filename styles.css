@@ -17,7 +17,6 @@ body {
 	display: grid;
 	grid-template-columns: 2fr;
 	grid-template-rows: .5fr repeat(2, 1fr) .5fr;
-	grid-gap: 10px;
 	height: 100%;
 	max-width: 1024px;
 	margin: auto;
@@ -49,9 +48,8 @@ body {
 	grid-area: 4 / 1 / 5 / 2;
 	color: rgb(0, 255, 170);
 	margin-left: 20px;
-	text-align: start;
-	vertical-align: baseline;
-} 
+	margin-right: 20px;
+}
 		
 .content {
 	text-align: center;
@@ -93,6 +91,19 @@ body {
 	display: block;
 	cursor: pointer;
 	margin: auto;
+}
+
+.email {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 0px;
+	text-align: center;
+	width: 25%;
+}
+
+.email-button {
+	margin-left: 10px;
 }
 
 .fade-in-text {
@@ -249,3 +260,4 @@ body {
 	100% {
 	  opacity:0;
   }
+}
